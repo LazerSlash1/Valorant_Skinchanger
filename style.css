@@ -1,0 +1,46 @@
+body {
+ background-image: url(background.jpg);
+ background-size: cover;
+}
+
+.Lpfp {
+    text-align: center;
+    background-attachment:fixed;
+
+}
+
+.user {
+    text-align: center;
+    background-attachment:fixed;
+    margin-top: -30px;
+    font-size: 25px;
+    color: #ffff;
+    font-family: "Fredoka", sans-serif;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3), 0 0 10px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.3);
+
+}
+
+.social {
+    text-align: center;
+    color: #ffff;
+    border-style: solid transparent;
+    margin-top: -25px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3), 0 0 10px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.everything {
+    border-style: solid transparent;
+    margin: 80px auto; /*for future me "this puts top and buttom on 50 and left and right on auto */
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    width: 600px;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0);   /* gives it no transparrent border*/                     
+    backdrop-filter: blur(10px) brightness(80%) saturate(120%);/*blur effect*/
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px; /*da rounding*/
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3), 0 0 10px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+
